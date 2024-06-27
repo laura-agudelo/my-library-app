@@ -7,15 +7,15 @@ export class Libro {
     idioma: string;
     precio: number;
     formato: string;
-    isbn: number;
+    isbn: string;
     descripcion: string;
     estado: string;
     ubicacion: string;
-    fecha_publicacion: Date;
+    fecha_publicacion: number;
     editorial: string;
     paginas: number;
-    dimensiones: number;
-    peso: number;
+    dimensiones: string;
+    peso: string;
 
 constructor (
     titulo: string,
@@ -24,15 +24,15 @@ constructor (
     idioma: string,
     precio: number,
     formato: string,
-    isbn: number,
+    isbn: string,
     descripcion: string,
     estado: string,
     ubicacion: string,
-    fecha_publicacion: Date,
+    fecha_publicacion: number,
     editorial: string,
     paginas: number,
-    dimensiones: number,
-    peso: number,
+    dimensiones: string,
+    peso: string,
 ){
 this.titulo = titulo;
 this.autor = autor;
